@@ -4,11 +4,17 @@
   "description": "cloning youtube with vanilla and nodejs for practice",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js" 
+    "start": "nodemon --exec babel-node index.js"
   },
   "author": "BoHyeon Kim",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
