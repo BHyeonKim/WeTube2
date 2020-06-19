@@ -4,7 +4,7 @@
   "description": "cloning youtube with vanilla and nodejs for practice",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js --delay 2"
+    "start": "nodemon --exec babel-node init.js --delay 2"
   },
   "author": "BoHyeon Kim",
   "license": "ISC",
